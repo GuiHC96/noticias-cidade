@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../images/fundo.png) repeat-x left top;
+}
+
+
+/* FORMATAÇÃO DE TEXTO  */
+
+h2{
+    font-size: 1.2em;
+    padding: 5px ;
+    background-color: #294c71;
+    color: white;
+}
+h3{
+    padding: 5px;
+   
+    display: inline-block;
+    font-size: 0.8em;
+    background-color: red;
+}
+
+
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline black;
+}
+
+/*  TOPO */
+
+#container{
+  
+    margin: 0 auto;
+    width: 750px;
+}
+
+#topo{
+    
+    height: 150px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+   padding-top: 25px;
+
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../images/logo.png) no-repeat left center;
+    text-indent: -3000px;
+}
+
+/*  LISTAS  */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*     NAVEGAÇÃO DO TOPO   */
+
+#topo ul {
+    background-color: #b10333;
+    
+    margin-top: 30px;
+    float: left;
+    
+}
+
+#topo ul li{
+    float: left;
+    
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    line-height: 1.5em;
+    color: #fff;
+    background: url(../images/divisor.png)  no-repeat left center ;
+
+}
+
+/*  REMOVER O DIVISOR A ESQUERDA DO PRIMEIRO LINK e marcar aba usada*/
+
+#topo ul .primeiro a{
+    background: none;
+
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+#atual{
+    background-color:#e62058;
+    
+}
+
+
+#conteudo{
+    
+    margin-top: 60px;
+    
+}
+
+ 
+
+/*    CONTEUDO DA "INDEX" */
+
+
+
+/* lateral */
+#index .lateral{
+   
+    width: 180px;
+    float: left;
+    margin: 0px 0 20px -750px;
+    
+
+}
+
+
+#entrevistas{
+    background: url(../images/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#news{
+    background: url(../images/fundo-caixa.png);
+    padding: 5px;
+    
+}
+
+#news form{
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+#news label{
+    position: relative;
+    top: 10px;
+}
+
+#news #email{
+    margin: 20px 0px 5px 0px;
+    width: 98%;
+    
+
+
+}
+
+#news .botao{
+    width: 90px;
+    height: 30px;
+    margin:5px;
+    background-color:#b10333;
+    color: white;
+    border: 2px solid rgb(104, 11, 11);
+    margin-left:35px ;
+    
+}
+
+#news .botao:hover{
+    background-color: #e62058;
+    cursor: pointer;
+}
+
+
+
+#entrevistas ul{
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+#entrevistas ul li{ 
+    padding: 5px 0px 5px 0px;
+    transition: ease-in-out 0.3s;
+}
+#entrevistas ul a{
+   
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    transition: ease-in-out 0.1s;
+  
+}
+
+#entrevistas ul li:hover{
+    background-color: rgb(228, 228, 228);
+
+}
+#entrevistas ul a:hover{
+    
+    margin-left: 15px;
+    
+    
+    
+}
+
+
+
+
+/******** CONTEÚDO PRINCIPAL  CENTRAL *******/
+
+/* ULTIMA ENTREVISTA */
+
+#index .primeiro-conteudo {
+     
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 195px;
+    
+   
+}
+
+#ultima-entrevista{
+    background: #fff url(../images/fundo-caixa.png);
+    padding: 5px;
+}
+
+ 
+
+
+
+.foto-principal{
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    
+
+}
+
+.foto-principal p{
+    text-indent: 20px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+/******** MUNDO  ********/
+#mundo,
+#noticias-recentes{
+    background:url(../images/fundo-caixa.png);
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 0.7em;
+
+}
+#mundo ul, 
+#noticias-recentes ul{
+    background-color: white;
+    padding: 5px;
+}
+
+#mundo li,
+#noticias-recentes li{
+    padding: 2px;
+    height: 65px;
+    border-bottom: 1px solid gray;
+}
+
+#mundo li a h4,
+#noticias-recentes li a h4{
+    
+    font-size: 1.3em;
+    color: #579fec;
+    margin-left: 5px;
+
+}
+
+
+#mundo li a,
+#noticias-recentes li a{
+    color: black;
+}
+
+
+
+
+
+.foto{
+    float: left;
+    margin: 5px;
+}
+
+/*   NOTICIAS RECENTES */
+
+
+
+
+
+/* CONTEÚDO PRINCIPAL DA DIREITA */
+
+#index .segundo-conteudo{
+    
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 15px;
+    
+}
+
+#destaques{
+    padding: 5px;
+    background:url(../images/fundo-caixa.png);
+
+}
+
+#taxi{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fff;
+
+}
+
+.foto-taxi{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* CONTEUDO DA PAGINA "BRASIL" */
+
+#brasil .primeiro-conteudo{
+    background-color: rgb(255, 255, 255);
+    width: 555px;
+    float: right;
+    margin-bottom: 20px;
+    
+}
+
+#brasil .lateral{
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+
+/*  CONTEUDO DA PAGINA "FOTOS" */
+
+#fotos .primeiro-conteudo{
+    background-color: rgb(255, 255, 255);
+    width: 750px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  RODAPÉ */
+
+#container-rodape{
+    background-color:#294c71 ;
+    height: 100px;
+    
+   
+}
+
+/* RODAPE */
+
+#rodape{
+    color:#fff;
+    text-align: center;
+    line-height: 100px;
+    width: 750px;
+    margin: 0 auto;
+}
+
+
